@@ -1,0 +1,45 @@
+.weAreCreative {
+  background-color: #3dbeff;
+  background-image: url("../images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  letter-spacing: 9px;
+  margin-top: 7rem;
+}
+
+.arrowDown {
+  margin-top: 6rem;
+  width: 2.2rem;
+}
+
+@media (max-width: 1100px) {
+  .weAreCreative {
+    background-image: url("../images/mobile/image-header.jpg");
+    background-size: 375px;
+    height: 33rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 3.2rem;
+    text-align: center;
+  }
+
+  .arrowDown {
+    width: 2.2rem;
+  }
+}

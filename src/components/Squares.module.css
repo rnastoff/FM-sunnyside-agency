@@ -1,0 +1,13 @@
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .squares {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
+}

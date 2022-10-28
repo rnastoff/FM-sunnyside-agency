@@ -1,0 +1,63 @@
+.footer {
+  background: #90d4c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer .logo svg {
+  transform: scale(1.35);
+  margin-top: 4.7rem;
+}
+
+svg path {
+  fill: #1e6756;
+}
+
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 3rem;
+}
+
+.footer ul li {
+  margin-right: 3.5rem;
+}
+
+.footer ul li:last-of-type {
+  margin-right: 0;
+}
+
+.footer li a {
+  color: #1e6756;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+
+.footer li a:hover {
+  color: #fff;
+  transition: all ease 0.5s;
+}
+
+.socialMediaIcons {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  transition: all ease 0.5s;
+}
+
+.socialMediaIcons a {
+  margin-right: 2rem;
+}
+
+.socialMediaIcons a svg path {
+  transition: all ease 0.5s;
+}
+
+.socialMediaIcons a:hover svg path {
+  fill: #fff;
+  transition: all ease 0.5s;
+}

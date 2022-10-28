@@ -1,0 +1,60 @@
+.buttonGroup {
+  cursor: pointer;
+  margin-top: 2.8rem;
+  position: relative;
+}
+
+.buttonGroup button {
+  all: unset;
+  color: #20293a;
+  font-family: "Fraunces", serif;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: 0.6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.buttonUnderline {
+  border-radius: 7px;
+  margin-left: 0rem;
+  width: 135px;
+  position: absolute;
+  bottom: -2px;
+  z-index: 0;
+}
+
+.buttonYellow {
+  border: 5px solid rgba(250, 212, 0, 0.25);
+  transition: all ease 0.5s;
+}
+.buttonGroup:hover .buttonYellow {
+  border: 5px solid rgba(250, 212, 0, 1);
+  transition: all ease 0.5s;
+}
+
+.buttonPink {
+  border: 5px solid rgba(254, 120, 103, 0.25);
+  transition: all ease 0.5s;
+}
+
+.buttonGroup:hover .buttonPink {
+  border: 5px solid rgba(254, 120, 103, 1);
+  transition: all ease 0.5s;
+}
+
+@media (max-width: 1100px) {
+  .buttonGroup button {
+    font-size: 1rem;
+    margin-left: 0rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .buttonUnderline {
+    /* width: 100%; */
+    left: 50%;
+    bottom: -3px;
+    transform: translate(-50%, 0%);
+  }
+}
